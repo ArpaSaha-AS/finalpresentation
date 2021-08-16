@@ -1,0 +1,356 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .topbar {
+        padding-bottom: 15px;
+    }
+
+    .topbar span {
+        font-size: 10px;
+    }
+
+    .navbar-brand img {
+        width: 140px;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 2px 0px;
+        text-align: center;
+    }
+
+    .header-content {
+        margin-top: 20px;
+    }
+
+    .header-content p {
+        font-size: 12px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10% 0px;
+    }
+
+    .header-content h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .header-content h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-image img {
+        width: 85%;
+        position: relative;
+    }
+
+    .header-image .tag {
+        display: none;
+        padding: 0px;
+    }
+
+    .events-content h3 {
+        font-size: 20px;
+    }
+
+    .events-content h1 {
+        font-size: 25px;
+    }
+
+    .events-content p {
+        font-size: 15px;
+    }
+
+    .reservation-section .heading h3 {
+        font-size: 20px;
+    }
+
+    .reservation-section .heading h1 {
+        font-size: 25px;
+    }
+
+    .footer-left-side {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left-side img {
+        padding-top: 65px;
+        padding-left: 10px;
+    }
+
+    .footer-left-side p {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .footer-left-side .copyright {
+        bottom: 15%;
+        display: flex;
+        width: 100%;
+    }
+
+    .footer-left-side .copyright p {
+        font-size: 13px;
+        margin: 0 auto;
+    }
+
+    .footer-right-side .icon {
+        bottom: 16%;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-right-side .icon i {
+        margin-right: 10px;
+    }
+
+    .footer-right-side {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    @media only screen and (min-width: 375px) {
+        .header-image img {
+            width: 50%;
+        }
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .navbar-brand img {
+        width: 140px;
+    }
+
+    .topbar span {
+        font-size: 10px;
+    }
+
+    .topbar {
+        text-align: center !important;
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .header-content {
+        margin-top: 20px;
+    }
+
+    .header-content p {
+        font-size: 12px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10% 0px;
+    }
+
+    .header-content h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .header-content h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-image img {
+        width: 55%;
+        margin-top: -20px;
+    }
+
+    .header-image .tag {
+        position: absolute;
+        left: 120px;
+        bottom: 10px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #DF1C1C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-image .tag .tag-content {
+        background-color: transparent;
+        padding: 11px;
+        border-radius: 50%;
+        border: 2px dashed white;
+    }
+
+    .header-image .tag .tag-content h4 {
+        font-size: 17px;
+        color: white;
+    }
+
+    .header-image .tag .tag-content h4 span {
+        font-size: 30px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500;
+    }
+
+    .header-image .tag .tag-content h5 {
+        margin: 0;
+        margin-top: -15px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        color: white;
+        font-size: 10px;
+    }
+
+    .events-content h3 {
+        font-size: 20px;
+    }
+
+    .events-content h1 {
+        font-size: 25px;
+    }
+
+    .events-content p {
+        font-size: 15px;
+    }
+
+    .footer-left-side .copyright {
+        bottom: 15%;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-right-side .icon {
+        bottom: 16%;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-right-side .icon i {
+        margin-right: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .topbar {
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .header-content p {
+        font-size: 15px;
+    }
+
+    .header-content h1 {
+        font-size: 68px;
+    }
+
+    .header-content h3 {
+        font-size: 41px;
+    }
+
+    .header-image .tag {
+        position: absolute;
+        left: 9px;
+        bottom: -20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #DF1C1C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-image .tag .tag-content {
+        background-color: transparent;
+        padding: 16px;
+        border-radius: 50%;
+        border: 2px dashed white;
+    }
+
+    .header-image .tag .tag-content h4 {
+        font-size: 15px;
+        color: white;
+    }
+
+    .header-image .tag .tag-content h4 span {
+        font-size: 34px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+
+    .header-image .tag .tag-content h5 {
+        margin: 0;
+        margin-top: -17px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        color: white;
+        font-size: 12px;
+    }
+
+    .events-content h3 {
+        font-size: 25px;
+    }
+
+    .events-content h1 {
+        font-size: 29px;
+    }
+
+    .events-content p {
+        font-size: 15px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header-image img {
+        width: 85%;
+        position: relative;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
